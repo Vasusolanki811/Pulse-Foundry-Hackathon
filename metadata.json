@@ -1,0 +1,6 @@
+{
+  "name": "Café Athena – Greek & Mediterranean Restaurant",
+  "description": "Authentic Greek & Mediterranean dining in Pacific Beach, San Diego since 1990. Fresh ingredients, rich vegan & gluten-free choices, patio dining, and easy reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

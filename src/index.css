@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-sand: #FAF7F2;
+    --color-sand-card: #F4EFE6;
+    --color-olive: #3D5A40;
+    --color-aegean: #1B3044;
+    --color-terracotta: #C86446;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #2C3539;
+    background-color: #FAF7F2;
+  }
+}
+
+.font-serif-greek {
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Subtle Mediterranean decorative divider */
+.greek-border-top {
+  border-top: 1px solid rgba(61, 90, 64, 0.15);
+}
+
+.greek-key-pattern {
+  background-image: radial-gradient(rgba(27, 48, 68, 0.08) 1px, transparent 0);
+  background-size: 20px 20px;
+}
